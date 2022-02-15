@@ -1,0 +1,74 @@
+body {
+  margin: 0; 
+  background-color: oldlace; 
+}
+
+#taskTableBody {
+  margin-top: 3em; 
+  margin-left: 26em; 
+  margin-right: 25em; 
+  text-align: center; 
+  border-style: solid; 
+  background-color: firebrick; 
+  color: white;
+}
+
+td {
+  padding-bottom: .5em; 
+  width: 5em; 
+  margin-left: 9.5em; 
+  margin-right: 9.5em; 
+  text-align: center; 
+}
+
+input {
+  border: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: #f2f2f2;
+  padding: 12px;
+  border-radius: 3px;
+  width: 250px;
+  font-size: 14px;
+}
+
+h1
+{
+  font-size: 32px;
+  text-shadow: -1px -1px red, 1px 1px black, -3px 0 4px #000;
+  font-family:Arial, Helvetica, sans-serif;
+  color: black;
+  padding:16px;
+  font-weight:lighter;
+  -moz-box-shadow: 2px 2px 6px #888;  
+  -webkit-box-shadow: 2px 2px 6px #888;  
+  box-shadow:2px 2px 6px #888;  
+  text-align:center;
+  display:block;
+  margin:16px;
+  
+}
+
+button {
+  display: inline-block;
+  background-color: #7b38d8;
+  border-radius: 10px;
+  border: 4px double #cccccc;
+  color: #eeeeee;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: black;
+}
